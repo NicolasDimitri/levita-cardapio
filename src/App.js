@@ -10,6 +10,12 @@ function App() {
       <Header />
       <Categorie />
       <Items />
+      <Categorie />
+      <Items />
+      <Categorie />
+      <Items />
+      <Categorie />
+      <Items />
     </div>
   );
 }
