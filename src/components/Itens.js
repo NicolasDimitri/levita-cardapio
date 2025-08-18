@@ -1,13 +1,11 @@
 import { Item } from './item';
+import itencss from './Itens.module.css';
 
 export const Items = () => {
+    const {itens} = itencss
     return (
         <div
-        style={{
-            display: 'grid',
-            "grid-template-columns": "repeat(3, 1fr)", 
-            width: '1200px',
-        }}
+        className={itens}
         >
             <Item />
             <Item />

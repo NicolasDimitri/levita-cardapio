@@ -1,52 +1,25 @@
 import food from '../images/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg';
+import itemModule from './Item.module.css';
 
 export const Item = () => {
+    const {addButton, container, text, foodimage} = itemModule
     return (
         <div
-            style={{
-                border: '1px solid black',
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                padding: '10px',
-                margin: '10px',
-                borderRadius: '10px',
-                // width: '20%'
-                width: '90%',
-                height: '150px',
-            }}
+        className={container}
         >
             <div
-                style={{
-                    marginLeft: '10px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '15px',
-                    // margin: ' 0px'
-                }}
+            className={text}
             >
-                <h2
-                style={{
-                    margin: '0px'
-                }}
-                >Lasanha Média</h2>
-                <p
-                style={{
-                    margin: '0px'
-                }}
-                >Reunimos os 4 sabores mais pedidos na casa em uma pizza com desconto</p>
-                <p
-                style={{
-                    margin: '0px'
-                }}
-                >R$ 23,90</p>
+                <h2>Lasanha Média</h2>
+                <p>Reunimos os 4 sabores mais pedidos na casa em uma pizza com desconto</p>
+                <p>R$ 23,90</p>
             </div>
-            <img style={{
-                width: '140px',
-                height: '140px',
-                borderRadius: '10px'
-            }} src={food} alt="lasanha" />
+            <img 
+            className={foodimage}
+            src={food} alt="lasanha" />
+            <div
+            className={addButton}
+            >+</div>
         </div>
     );
 };

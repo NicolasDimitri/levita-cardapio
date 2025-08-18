@@ -1,7 +1,9 @@
+import logo from '../images/images.jpeg';
+
 export const Header = () => {
     return (
         <div>
-            {/* <img src={logo} alt="" /> */}
+            <img src={logo} alt="" />
             <div>
                 <h1>
                     Levita Massas
