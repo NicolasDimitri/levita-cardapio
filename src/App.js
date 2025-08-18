@@ -1,13 +1,15 @@
 import './App.css';
 import { Categorie } from './components/categorie';
-import { Item } from './components/item';
+import { Items } from './components/Itens';
+import { Header } from './components/header';
 
 
 function App() {
   return (
     <div className="App">
-      <Item />
-      {/* <Categorie /> */}
+      <Header />
+      <Categorie />
+      <Items />
     </div>
   );
 }

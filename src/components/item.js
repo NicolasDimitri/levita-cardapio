@@ -13,7 +13,7 @@ export const Item = () => {
                 margin: '10px',
                 borderRadius: '10px',
                 // width: '20%'
-                width: '390px',
+                width: '90%',
                 height: '150px',
             }}
         >

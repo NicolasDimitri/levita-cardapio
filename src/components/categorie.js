@@ -7,7 +7,7 @@ export const Categorie = () => {
                 borderRadius: '10px',
                 color: 'white',
                 border: '1px solid black',
-                width: '80%',       /* Largura da div */
+                width: '1200px',       /* Largura da div */
                 // height: '300px',      /* Altura da div */
                 'background-image': `linear-gradient(90deg,rgba(0, 0, 0, 0.7) 20%, rgba(255, 255, 255, 0) 70%)
 , url(${background})`, /* Caminho da imagem */

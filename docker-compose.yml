@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  react-dev:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      # Monta o código fonte local no container
+      - .:/app
+      # Mantém node_modules isolado
+      - /app/node_modules
+    environment:
+      # Habilita hot-reload no Docker
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    stdin_open: true  # Permite interação
+    tty: true         # Aloca pseudo-TTY
