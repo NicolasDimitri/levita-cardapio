@@ -4,7 +4,7 @@ export const OrderDetails = () => {
       style={{
         display: 'flex',
         justifyContent: 'center',
-        border: '1px solid black',
+        border: '3px solid purple',
         borderRadius: '10px',
         width: '900px',
         height: '800px',
@@ -12,16 +12,26 @@ export const OrderDetails = () => {
     >
       <div
         style={{
-          border: '1px solid black',
+          border: '3px solid blue',
           borderRadius: '10px',
           width: '800px',
           height: '700px',
+          // display: 'flex',
         }}
       >
-        <div>
+        <div
+        style={{
+          border: '3px solid green',
+          borderRadius: '10px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
+        >
           <div
             style={{
-              border: '1px solid black',
+              border: '3px solid purple',
+              width: '100%',
               borderRadius: '10px',
               display: 'flex',
               justifyContent: 'flex-end',
@@ -30,21 +40,19 @@ export const OrderDetails = () => {
           >
             <div
               style={{
-                border: '1px solid black',
+                border: '3px solid purple',
                 borderRadius: '10px',
                 width: '40px',
                 height: '40px',
-                // backgroundColor: 'red'
               }}
             ></div>
           </div>
           <div
             style={{
-              border: '1px solid black',
+              border: '3px solid purple',
               borderRadius: '10px',
               width: '404px',
               height: '404px',
-              // backgroundColor: 'red'
             }}
           >
             <h1>fxgsgs do Pedido</h1>
