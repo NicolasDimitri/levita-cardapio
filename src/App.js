@@ -4,21 +4,22 @@ import { Items } from './components/Itens';
 import { Header } from './components/header';
 import { OrderDetails } from './components/OrderDetails';
 
-
 function App() {
   return (
-    // <div className="App">
-    //   <Header />
-    //   <Categorie />
-    //   <Items />
-    //   <Categorie />
-    //   <Items />
-    //   <Categorie />
-    //   <Items />
-    //   <Categorie />
-    //   <Items />
-    // </div>
-    <OrderDetails />
+    <>
+      <div className="App">
+        <Header />
+        <Categorie />
+        <Items />
+        <Categorie />
+        <Items />
+        <Categorie />
+        <Items />
+        <Categorie />
+        <Items />
+      </div>
+      <OrderDetails />
+    </>
   );
 }
 
