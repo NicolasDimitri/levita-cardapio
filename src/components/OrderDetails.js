@@ -14,11 +14,13 @@ export const OrderDetails = () => {
           <div className={left}>
             <img src={orderPhoto} alt="" />
             <h1>Lasanha Queijo Mussarela Presunto</h1>
+            <p>Serve 5 pessoas</p>
+            <h5>Para quem gosta de massas asdasfdg dfg sfd sd sd sd.</h5>
           </div>
           <div className={right}>
             <div>
-              
             </div>
+            
             <h1>right</h1>
           </div>
         </div>
