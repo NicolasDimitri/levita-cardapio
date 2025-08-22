@@ -1,18 +1,26 @@
 import OrderDetailsCSS from './OrderDetails.module.css';
+import orderPhoto from '../images/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg';
 
 export const OrderDetails = () => {
-  const { overlay, background, container2, left,right, xis,teste } = OrderDetailsCSS;
+  const { background, overlay, containerX, xis, container, left, right } =
+    OrderDetailsCSS;
   return (
     <div className={background}>
       <div className={overlay}>
-        <div className={`${container2} ${teste}`}>
-          <div className={`${xis} ${teste}`}>xis</div>
+        <div className={containerX}>
+          <div className={xis}>xis</div>
         </div>
-        <div className={`${left} ${teste}`}>
-          <h1>fxgsgs do Pedido</h1>
-        </div>
-        <div className={right}>
-          
+        <div className={container}>
+          <div className={left}>
+            <img src={orderPhoto} alt="" />
+            <h1>Lasanha Queijo Mussarela Presunto</h1>
+          </div>
+          <div className={right}>
+            <div>
+              
+            </div>
+            <h1>right</h1>
+          </div>
         </div>
       </div>
     </div>
