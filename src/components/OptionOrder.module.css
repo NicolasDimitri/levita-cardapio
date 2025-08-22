@@ -1,0 +1,30 @@
+.optionOrder {
+    border: 1px solid red;
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.optionLabel {
+    border: 1px solid green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.optionLabel:hover {
+    cursor: pointer;
+}
+
+.optionOrder input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.optionOrder span {
+    margin-left: 10px;
+}
