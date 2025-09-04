@@ -1,7 +1,7 @@
 import categorieCSS from './Categorie.module.css';
 
 export const Categorie = () => {
-    const { cssCategorie } = categorieCSS
+    const {cssCategorie} = categorieCSS;
     return (
         <div
             className={cssCategorie}

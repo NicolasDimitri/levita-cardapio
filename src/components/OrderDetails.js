@@ -65,7 +65,7 @@ export const OrderDetails = () => {
                 >+</button>
               </div>
               <button className={addToCart}>
-                Adicionar - R$ {(49.90 * qtd).toFixed(2)}
+                Adicionar - R$ {(49.90 * qtd).toFixed(2).replace('.', ',')}
               </button>
             </div>
           </div>

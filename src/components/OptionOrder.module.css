@@ -27,7 +27,7 @@
     flex-direction: row;
     /* justify-content: space-between; */
     align-items: center;
-    border: 2px solid #ce0101;
+    /* border: 2px solid #ce0101; */
     cursor: pointer;
 }
 
@@ -43,9 +43,9 @@
     /* border: 2px solid #ce0101; */
 }
 
-.optionLabel span:nth-child(2) {
+.optionLabel span:first-child {
     font-weight: 500;
-    color: #2c3e50;
+    color: #273747;
     /* border: 2px solid #ce0101; */
 }
 
@@ -56,9 +56,9 @@
 }
 
 .optionLabel span:last-child {
-    text-align: right;
+    text-align: left;
     font-weight: bold;
-    color: #e74c3c;
+    color: #000000;
     /* border: 2px solid #ce0101; */
 }
 
@@ -73,7 +73,7 @@
 
 .optionOrder input[type="checkbox"] {
     margin-right: 15px;
+    cursor: pointer;
     width: 18px;
     height: 18px;
-    cursor: pointer;
-}
+}       

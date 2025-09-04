@@ -1,0 +1,38 @@
+.containerNav {
+    border: 1px solid #683030;
+    padding: 0 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.navbar {
+    border: 1px solid #ce0101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: default;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.navbar button:hover {
+  outline: 2px solid white;
+  cursor: pointer;
+}
+
+.navbar button.selected {
+  background-color: white;
+  color: blue;
+}
