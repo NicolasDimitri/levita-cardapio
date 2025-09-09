@@ -2,7 +2,7 @@ import headerCSS from './Header.module.css';
 import logo from '../images/images.jpeg';
 import { useEffect, useState } from 'react';
 
-export const Header = () => {
+const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -34,3 +34,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

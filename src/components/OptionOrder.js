@@ -1,7 +1,7 @@
 import optionOrderCSS from './OptionOrder.module.css';
 import order from '../images/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg';
 
-export const OptionOrder = ({ id }) => {
+const OptionOrder = ({ id }) => {
   const { optionOrder, optionLabel, optionInfo } = optionOrderCSS;
   return (
     <li className={optionOrder}>
@@ -17,3 +17,6 @@ export const OptionOrder = ({ id }) => {
     </li>
   );
 };
+
+
+export default OptionOrder;

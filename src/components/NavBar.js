@@ -1,8 +1,8 @@
 import navbarCSS from './NavBar.module.css';
 import { useState } from 'react';
 
-export const NavBar = () => {
-  const [selectedButton, setSelectedButton] = useState(null);
+const NavBar = () => {
+  const [selectedButton, setSelectedButton] = useState(0);
   const buttons = ['Inicio', 'Promoções', 'Pedidos', 'Entrar/Cadastrar'];
   const handleClick = (index) => {
     setSelectedButton(index); // Define o botão clicado como selecionado
@@ -23,3 +23,5 @@ export const NavBar = () => {
     </div>
   );
 };
+
+export default NavBar;

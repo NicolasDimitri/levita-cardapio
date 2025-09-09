@@ -1,7 +1,7 @@
-import { Item } from './Item';
+import Item from './Item';
 import itencss from './Itens.module.css';
 
-export const Items = () => {
+const Items = () => {
   const { itens } = itencss;
   return (
     <div className={itens}>
@@ -13,3 +13,5 @@ export const Items = () => {
     </div>
   );
 };
+
+export default Items;

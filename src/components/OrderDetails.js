@@ -1,9 +1,9 @@
 import OrderDetailsCSS from './OrderDetails.module.css';
 import orderPhoto from '../images/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg';
-import { OptionOrder } from './OptionOrder';
+import OptionOrder from './OptionOrder';
 import { useState } from 'react';
 
-export const OrderDetails = () => {
+const OrderDetails = () => {
   const [textLength, setTextLength] = useState(0);
   const [qtd, setQtd] = useState(1);
   const lista = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -74,3 +74,6 @@ export const OrderDetails = () => {
     </div>
   );
 };
+
+
+export default OrderDetails;

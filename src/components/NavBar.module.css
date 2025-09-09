@@ -25,10 +25,12 @@
   cursor: default;
   font-weight: bold;
   border-radius: 4px;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 .navbar button:hover {
-  outline: 2px solid white;
+    border: 2px solid white;
   cursor: pointer;
 }
 

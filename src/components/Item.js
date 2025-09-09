@@ -2,7 +2,7 @@ import food from '../images/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg
 import itemModule from './Item.module.css';
 import plus from '../images/plus-bold-svgrepo-com.svg';
 
-export const Item = () => {
+const Item = () => {
   const { addButton, container, text, foodimage, plusBtn } = itemModule;
   return (
     <div className={container}>
@@ -20,3 +20,5 @@ export const Item = () => {
     </div>
   );
 };
+
+export default Item;

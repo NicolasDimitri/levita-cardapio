@@ -1,6 +1,6 @@
 import categorieCSS from './Categorie.module.css';
 
-export const Categorie = () => {
+const Categorie = () => {
     const {cssCategorie} = categorieCSS;
     return (
         <div
@@ -10,3 +10,5 @@ export const Categorie = () => {
         </div>
     );
 }
+
+export default Categorie;
